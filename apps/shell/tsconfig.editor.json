@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "src/app/todos/todos.component.tsx"],
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  }
+}
